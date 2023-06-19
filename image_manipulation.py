@@ -521,7 +521,9 @@ if __name__ == "__main__":
            images in the directory where it was executed.""")
 
     use_JPEG = False # either JPEG or PNG
-    img = imload_rgb("test_image.JPEG")
+    #path = "test_image.JPEG"
+    path = "modern_house.jpg"
+    img = imload_rgb(path)
 
     ###################################################
     # A) Example for color-experiment:
